@@ -1,0 +1,9 @@
+jupyterlab
+mlflow
+psycopg2-binary
+boto3
+dvc[s3]
+pandas
+numpy
+scikit-learn
+matplotlib
