@@ -1,0 +1,22 @@
+{
+    "name": "ML Environment",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "jupyter",
+    "workspaceFolder": "/home/jovyan/work",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-azuretools.vscode-docker",
+                "njpwerner.autodocstring"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/opt/conda/bin/python"
+            }
+        }
+    },
+    "remoteUser": "jovyan"
+}
